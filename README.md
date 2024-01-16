@@ -1,7 +1,7 @@
 # MarginCack_for_android</br>
 
-Android-калькулятор для торговли криптовалютами</br>/br>
-Стек: Python, Kivy, Buildozer</br>/br>
+Android-калькулятор для торговли криптовалютами</br></br>
+Стек: Python, Kivy, Buildozer</br></br>
 Установить buildozer и собрать проект:</br>
 pip install --user buildozer</br>
 git clone https://github.com/kivy/buildozer</br>
