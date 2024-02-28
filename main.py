@@ -66,14 +66,11 @@ class MarginCalck(App):
                     self.nPercent = round((self.nStopPrice * 100 / self.nInPrice) - 100, 2)
                     self.nRatio = round((self.nInPrice - self.nTakePrice) / (self.nStopPrice - self.nInPrice), 1)
                     self.CalculateResult1.color='red'
-            #            LabelOrderVolume["fg"] = 'red'
                 else:
                     self.nPercent = round(100 - (self.nStopPrice * 100 / self.nInPrice), 2)
                     self.nRatio = round((self.nTakePrice - self.nInPrice) / (self.nInPrice - self.nStopPrice), 1)
                     self.CalculateResult1.color='green'
-#            LabelOrderVolume["fg"] = 'green'
 
-#        print(f"Вход={self.nInPrice} Тейк={self.nTakePrice} Стоп={self.nStopPrice} Риск={self.nRiskValue}")
 
                 self.nValue = int((self.nRiskValue * 100) / self.nPercent)
                 self.nPos = self.nValue / self.nInPrice
