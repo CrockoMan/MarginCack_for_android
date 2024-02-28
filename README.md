@@ -1,6 +1,6 @@
 # MarginCack_for_android</br>
 
-Android-калькулятор для торговли криптовалютами</br></br>
+Android-калькулятор для торговли криптовалютами. Позволяет рассчитать размер позиции в зависимоти от точки входа, кредитного плеча.</br></br>
 Стек: Python, Kivy, Buildozer</br></br>
 Установить buildozer и собрать проект:</br>
 pip install --user buildozer</br>
