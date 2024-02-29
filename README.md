@@ -12,7 +12,7 @@ pip install -e .</br>
 Перейти в рабочий каталог и выполнить:</br>
 buildozer init</br>
 buildozer android debug deploy run</br>
-
+Скопировать собранный apk на устройство, установить и запустить.</br>
 Ввод данных:</br>
 ![Ввод данных](https://github.com/CrockoMan/MarginCack_for_android/blob/main/MarginCalck%20by%20DieHard_1.jpg)</br>
 Результат расчёта:</br>
