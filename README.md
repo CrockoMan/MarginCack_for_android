@@ -9,7 +9,7 @@ git clone https://github.com/kivy/buildozer</br>
 cd buildozer</br>
 python setup.py build</br>
 pip install -e .</br>
-Go into your application directory and run:</br>
+Перейти в рабочий каталог и выполнить:</br>
 buildozer init</br>
 buildozer android debug deploy run</br>
 
